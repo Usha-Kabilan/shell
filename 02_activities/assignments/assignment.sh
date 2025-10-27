@@ -31,7 +31,7 @@ mkdir -p data
 
 # 2. Move the ./rawdata directory to ./data/raw
 
-mv rawdata ./data/raw
+mv ./rawdata ./data/raw
 
 # 3. List the contents of the ./data/raw directory
 
@@ -47,7 +47,7 @@ cp ./data/raw/*server*.log ./data/processed/server_logs/
 
 # 6. Repeat the above step for user logs and event logs
 
-cp ./data/raw/*event*.log ./data/processed/events_logs/
+cp ./data/raw/*event*.log ./data/processed/event_logs/
 
 cp ./data/raw/*user*.log ./data/processed/user_logs/
 
